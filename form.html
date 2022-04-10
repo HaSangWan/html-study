@@ -1,0 +1,19 @@
+<html>
+  <head>
+    form이라는 것은 사용가 입력한 정보를 서버로 보내는 것
+    input 사용자로 부터 정보를 "입력" 받을 수 있는 (정보를 입력할 수 있는 박스생성)
+    전송을 할 때 사용하는 버튼은 submit(제출하다)
+    어느 서버로 데이터를 전송하는지 에서 사용하는 태그가 form
+    form action=  "http://localhost/login.php"  => submit 버튼을 눌렀을  때 어디로 보낼 것인가? 할 때 action을
+    http://localhost/login.php 이 주소로 데이터를 전송한다
+  </head>
+
+  <body>
+  <form action = "http://localhost/login.php">
+    <p>아아디: <input type = "text" name = "id"></p>
+    <p>비밀번호: <input type = "password" name = "pwd"></p>
+    <p>주소: <input type = "address" name = "address"></p>
+    <input type = "submit">
+  </form>
+  </body>
+</html>
